@@ -1,0 +1,28 @@
+.fizz-container {
+  column-count: 4;
+}
+
+.fizz-element {
+
+}
+
+.fizz-button-container {
+  text-align: center;
+}
+
+.fizz-button {
+  background-color: darkblue;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: white;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+}
+
+.fizz-button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+  transition-duration: .1s;
+}

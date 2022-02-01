@@ -1,0 +1,13 @@
+<h1>Nordea Fizz Buzz</h1>
+
+<div *ngIf="result; else elseBlock">
+  <ul class="fizz-container">
+    <li class="fizz-element" *ngFor="let x of result">{{x}}</li>
+  </ul>
+</div>
+<ng-template #elseBlock>
+  <div class="fizz-button-container">
+    <button class="fizz-button" (click)="onClick()">FizzBuzz</button>
+  </div>
+</ng-template>
+
