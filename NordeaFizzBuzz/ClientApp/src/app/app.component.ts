@@ -8,7 +8,9 @@ import {Title} from "@angular/platform-browser";
 export class AppComponent {
   title = 'app';
 
+  //inject only for constructor scope
   constructor(titleService: Title) {
+    //set webpage title so it looks nice
     titleService.setTitle('Nordea Fizz Buzz')
   }
 }
